@@ -1,5 +1,5 @@
 # 💫 About Me:
-# Hi👋, I'm Harshad Gore
+# Hi👋, I'm Harshad
 
 
 ## 🌐 Socials:
