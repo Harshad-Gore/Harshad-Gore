@@ -1,27 +1,83 @@
-# 💫 About Me:
-# Hi👋, I'm Harshad
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Harshad" />
+</p>
 
+<p align="center">
+  <a href="https://linkedin.com/in/harshad-s-gore">LinkedIn</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://x.com/urHarshad">X</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://instagram.com/ur.harshad">Instagram</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/Harshad-Gore?tab=repositories">Repositories</a>
+</p>
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ur.harshad) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/harshad-s-gore) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/urharshad) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/urHarshad) 
+## About
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Esbuild](https://img.shields.io/badge/esbuild-%23FFCF00.svg?style=for-the-badge&logo=esbuild&logoColor=black) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![FFmpeg](https://shields.io/badge/FFmpeg-%23171717.svg?logo=ffmpeg&style=for-the-badge&labelColor=171717&logoColor=5cb85c) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Harshad-Gore&theme=blue_navy&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Harshad-Gore&theme=blue_navy&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Harshad-Gore&theme=blue_navy&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+I am Harshad, an engineering student at MIT Academy of Engineering in Pune, graduating in 2027. My projects currently span applied machine learning, computer vision, cloud systems, web applications, and Flutter.
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Harshad-Gore&theme=radical&no-frame=true&no-bg=false&margin-w=4)
+## Selected projects
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=dark)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Harshad-Gore/Global-Air-Quality-And-Weather-Data-Unification">Global Air Quality and Weather Data Unification</a></h3>
+      <p>A single interface for working with environmental and weather data from multiple sources.</p>
+      <sub>DATA · APIs · WEB</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Harshad-Gore/Sign-Language-Interpreter">Sign Language Interpreter</a></h3>
+      <p>A computer-vision project for interpreting sign-language gestures.</p>
+      <sub>PYTHON · COMPUTER VISION</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Harshad-Gore/serverless-order-system">Serverless Order System</a></h3>
+      <p>An ordering workflow implemented using serverless cloud architecture.</p>
+      <sub>PYTHON · CLOUD · SERVERLESS</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Harshad-Gore/To-Do-Flutter-App">Flutter To-Do</a></h3>
+      <p>A mobile task-management application built with Flutter and Dart.</p>
+      <sub>FLUTTER · DART</sub>
+    </td>
+  </tr>
+</table>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Harshad-Gore&limit=5&theme=one_dark_pro&combine_all_yearly_contributions=true)
+<p align="right"><a href="https://github.com/Harshad-Gore?tab=repositories">View all repositories</a></p>
 
----
-[![](https://visitcount.itsvg.in/api?id=Harshad-Gore&icon=6&color=7)](https://visitcount.itsvg.in)
+## Tools
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Languages</strong><br><br>
+      Python<br>
+      JavaScript<br>
+      Dart<br>
+      C and C++<br>
+      SQL
+    </td>
+    <td width="33%" valign="top">
+      <strong>Development</strong><br><br>
+      Flutter<br>
+      Node.js and Express<br>
+      Flask<br>
+      TensorFlow and PyTorch<br>
+      OpenCV
+    </td>
+    <td width="33%" valign="top">
+      <strong>Platforms and data</strong><br><br>
+      Azure and Google Cloud<br>
+      Firebase<br>
+      MongoDB and MySQL<br>
+      Git and GitHub<br>
+      Figma and Blender
+    </td>
+  </tr>
+</table>
+
+## Contact
+
+For project discussions and collaboration, reach me through [LinkedIn](https://linkedin.com/in/harshad-s-gore) or [X](https://x.com/urHarshad).
