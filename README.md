@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Harshad" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+    <img src="./assets/hero-dark.svg" width="100%" alt="Harshad" />
+  </picture>
 </p>
 
 <p align="center">
@@ -14,66 +18,53 @@
 
 ## About
 
-I am Harshad, an engineering student at MIT Academy of Engineering in Pune, graduating in 2027. My projects currently span applied machine learning, computer vision, cloud systems, web applications, and Flutter.
+I am Harshad, an engineering student at MIT Academy of Engineering in Pune, graduating in 2027. My current work is focused on applied AI systems and accessible human-computer interaction.
 
-## Selected projects
+## Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Harshad-Gore/Global-Air-Quality-And-Weather-Data-Unification">Global Air Quality and Weather Data Unification</a></h3>
-      <p>A single interface for working with environmental and weather data from multiple sources.</p>
-      <sub>DATA · APIs · WEB</sub>
+      <h3><a href="https://github.com/Harshad-Gore/spring-ai-rag-orchestrator">Spring AI RAG Orchestrator</a></h3>
+      <p>A full-stack platform for creating document workspaces, ingesting PDF, DOCX, and TXT sources, and asking questions with grounded answers and inline citations.</p>
+      <p><sub>SPRING BOOT · SPRING AI · REACT · POSTGRESQL · PGVECTOR</sub></p>
+      <a href="https://github.com/Harshad-Gore/spring-ai-rag-orchestrator">Open repository</a>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Harshad-Gore/Sign-Language-Interpreter">Sign Language Interpreter</a></h3>
-      <p>A computer-vision project for interpreting sign-language gestures.</p>
-      <sub>PYTHON · COMPUTER VISION</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Harshad-Gore/serverless-order-system">Serverless Order System</a></h3>
-      <p>An ordering workflow implemented using serverless cloud architecture.</p>
-      <sub>PYTHON · CLOUD · SERVERLESS</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Harshad-Gore/To-Do-Flutter-App">Flutter To-Do</a></h3>
-      <p>A mobile task-management application built with Flutter and Dart.</p>
-      <sub>FLUTTER · DART</sub>
+      <h3><a href="https://github.com/Harshad-Gore/indian-sign-language-two-way-communication">Indian Sign Language: Two-Way Communication</a></h3>
+      <p>A two-way system that converts text or speech into animated ISL and recognizes camera-based signing as text or speech.</p>
+      <p><sub>REACT · TYPESCRIPT · FASTAPI · MEDIAPIPE · PYTORCH</sub></p>
+      <a href="https://github.com/Harshad-Gore/indian-sign-language-two-way-communication">Open repository</a>
     </td>
   </tr>
 </table>
-
-<p align="right"><a href="https://github.com/Harshad-Gore?tab=repositories">View all repositories</a></p>
 
 ## Tools
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <strong>Languages</strong><br><br>
-      Python<br>
-      JavaScript<br>
-      Dart<br>
-      C and C++<br>
-      SQL
+      <strong>Application</strong><br><br>
+      Java and Spring Boot<br>
+      Python and FastAPI<br>
+      React and TypeScript<br>
+      Vite and Tailwind CSS
     </td>
     <td width="33%" valign="top">
-      <strong>Development</strong><br><br>
-      Flutter<br>
-      Node.js and Express<br>
-      Flask<br>
-      TensorFlow and PyTorch<br>
-      OpenCV
+      <strong>AI and vision</strong><br><br>
+      Spring AI<br>
+      PyTorch<br>
+      MediaPipe<br>
+      Whisper<br>
+      CWASA and SiGML
     </td>
     <td width="33%" valign="top">
-      <strong>Platforms and data</strong><br><br>
-      Azure and Google Cloud<br>
-      Firebase<br>
-      MongoDB and MySQL<br>
-      Git and GitHub<br>
-      Figma and Blender
+      <strong>Data and infrastructure</strong><br><br>
+      PostgreSQL and pgvector<br>
+      Supabase<br>
+      S3-compatible storage<br>
+      Docker<br>
+      Git and GitHub
     </td>
   </tr>
 </table>
