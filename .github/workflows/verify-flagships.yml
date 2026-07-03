@@ -1,0 +1,105 @@
+name: Flagship verification
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/verify-flagships.yml
+      - README.md
+      - docs/**
+  schedule:
+    - cron: '23 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: flagship-verification
+  cancel-in-progress: true
+
+jobs:
+  rag-backend:
+    name: RAG backend tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: Harshad-Gore/spring-ai-rag-orchestrator
+          path: project
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+          cache: maven
+          cache-dependency-path: project/backend/pom.xml
+      - name: Prepare Maven wrapper
+        working-directory: project/backend
+        run: chmod +x mvnw
+      - name: Run deterministic backend suite
+        working-directory: project/backend
+        run: ./mvnw --batch-mode --no-transfer-progress test
+
+  rag-frontend:
+    name: RAG frontend build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: Harshad-Gore/spring-ai-rag-orchestrator
+          path: project
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: project/frontend/package-lock.json
+      - working-directory: project/frontend
+        run: npm ci
+      - working-directory: project/frontend
+        run: npm run build
+
+  isl-frontend:
+    name: ISL frontend lint and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: Harshad-Gore/indian-sign-language-two-way-communication
+          path: project
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: project/frontend/package-lock.json
+      - working-directory: project/frontend
+        run: npm ci
+      - working-directory: project/frontend
+        run: npm run lint
+      - working-directory: project/frontend
+        run: npm run build
+
+  isl-recognition:
+    name: ISL recognition tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: Harshad-Gore/indian-sign-language-two-way-communication
+          path: project
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: project/training-rq.txt
+      - name: Install deterministic test dependencies
+        run: pip install "numpy>=1.26,<2.0" "opencv-python-headless>=4.8,<5" "mediapipe>=0.10.14,<0.11" "torch>=2.1,<2.8" "pytest>=8,<10"
+      - name: Run recognition suite
+        working-directory: project/isl
+        run: python -m pytest tests -q
+      - name: Compile backend modules
+        working-directory: project
+        run: python -m compileall -q backend isl/src

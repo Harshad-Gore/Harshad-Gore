@@ -28,16 +28,22 @@ I am Harshad, an engineering student at MIT Academy of Engineering in Pune, grad
       <h3><a href="https://github.com/Harshad-Gore/spring-ai-rag-orchestrator">Spring AI RAG Orchestrator</a></h3>
       <p>A full-stack platform for creating document workspaces, ingesting PDF, DOCX, and TXT sources, and asking questions with grounded answers and inline citations.</p>
       <p><sub>SPRING BOOT · SPRING AI · REACT · POSTGRESQL · PGVECTOR</sub></p>
-      <a href="https://github.com/Harshad-Gore/spring-ai-rag-orchestrator">Open repository</a>
+      <a href="https://github.com/Harshad-Gore/spring-ai-rag-orchestrator">Open repository</a> · <a href="./docs/spring-ai-rag-orchestrator.md">Architecture and evidence</a>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Harshad-Gore/indian-sign-language-two-way-communication">Indian Sign Language: Two-Way Communication</a></h3>
       <p>A two-way system that converts text or speech into animated ISL and recognizes camera-based signing as text or speech.</p>
       <p><sub>REACT · TYPESCRIPT · FASTAPI · MEDIAPIPE · PYTORCH</sub></p>
-      <a href="https://github.com/Harshad-Gore/indian-sign-language-two-way-communication">Open repository</a>
+      <a href="https://github.com/Harshad-Gore/indian-sign-language-two-way-communication">Open repository</a> · <a href="./docs/indian-sign-language.md">Architecture and evidence</a>
     </td>
   </tr>
 </table>
+
+## Verification
+
+[![Flagship verification](https://github.com/Harshad-Gore/Harshad-Gore/actions/workflows/verify-flagships.yml/badge.svg)](https://github.com/Harshad-Gore/Harshad-Gore/actions/workflows/verify-flagships.yml)
+
+The profile workflow checks out both repositories and independently runs their backend tests, recognition tests, frontend lint where enforced, and production builds. The case studies record the verified baseline and the remaining limitations.
 
 ## Tools
 
