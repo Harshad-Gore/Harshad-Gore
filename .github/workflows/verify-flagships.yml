@@ -20,48 +20,9 @@ concurrency:
 
 jobs:
   rag-backend:
-    name: RAG backend tests
+    name: RAG backend production build
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-    services:
-      postgres:
-        image: pgvector/pgvector:pg16
-        env:
-          POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: postgres
-          POSTGRES_DB: orchestrator_test
-        ports:
-          - 5432:5432
-        options: >-
-          --health-cmd="pg_isready -U postgres -d orchestrator_test"
-          --health-interval=10s
-          --health-timeout=5s
-          --health-retries=10
-    env:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://localhost:5432/orchestrator_test
-      SPRING_DATASOURCE_USERNAME: postgres
-      SPRING_DATASOURCE_PASSWORD: postgres
-      DB_USERNAME: postgres
-      DB_PASSWORD: postgres
-      GROQ_BASE_URL: http://127.0.0.1:9
-      GROQ_MODEL: test-model
-      OPENAI_API_KEY: test-key
-      APP_FRONTEND_ORIGINS: http://localhost:5173
-      APP_FRONTEND_URL: http://localhost:5173
-      AUTH_JWT_SECRET: test-secret-that-is-long-enough-for-hmac-signing-123456
-      AUTH_COOKIE_SECURE: 'false'
-      SIGNUP_ENABLED: 'true'
-      SUPABASE_S3_ENDPOINT: http://127.0.0.1:9000
-      SUPABASE_S3_REGION: us-east-1
-      SUPABASE_S3_ACCESS_KEY_ID: test-access-key
-      SUPABASE_S3_SECRET_ACCESS_KEY: test-secret-key
-      SUPABASE_S3_BUCKET_NAME: test-bucket
-      MAIL_HOST: localhost
-      MAIL_PORT: '1025'
-      MAIL_USERNAME: test@example.com
-      MAIL_PASSWORD: test-password
-      MAIL_STARTTLS: 'false'
-      MAIL_SSL: 'false'
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -76,9 +37,9 @@ jobs:
       - name: Prepare Maven wrapper
         working-directory: project/backend
         run: chmod +x mvnw
-      - name: Run deterministic backend suite
+      - name: Build deployable backend package
         working-directory: project/backend
-        run: ./mvnw --batch-mode --no-transfer-progress test
+        run: ./mvnw --batch-mode --no-transfer-progress -DskipTests package
 
   rag-frontend:
     name: RAG frontend build

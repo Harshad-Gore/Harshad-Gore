@@ -33,12 +33,11 @@ Validated locally on 4 July 2026.
 
 | Check | Result |
 |---|---:|
-| Spring backend suite | 11 tests, 0 failures, 1 deterministic skip |
+| Spring production package | Passed without starting the application context |
 | React production build | Passed |
-| Authentication flow | Signup, verification state, login, session and duplicate-account behavior covered |
-| Migration startup | Flyway initialization covered against an H2 PostgreSQL-compatible fixture |
+| Render runtime configuration | Left untouched by profile verification |
 
-The external website extractor remains a manual smoke test because third-party availability is nondeterministic.
+The profile workflow deliberately verifies the deployable artifact rather than bootstrapping the application's external database, mail, storage, and model integrations. DB-backed integration tests remain repository-level work and are not represented as passing CI evidence here.
 
 ## Security boundary
 
@@ -51,6 +50,7 @@ The external website extractor remains a manual smoke test because third-party a
 ## Open engineering work
 
 - Add containerized PostgreSQL tests for pgvector-specific behavior.
+- Align the isolated Flyway fixture and authentication expectations before making backend tests a required profile gate.
 - Introduce retrieval evaluation for relevance, citation precision, and faithfulness.
 - Split the large frontend bundle and enforce a size budget.
 - Finish the full frontend lint backlog before making it a required gate.
