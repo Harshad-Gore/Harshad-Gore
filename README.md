@@ -41,7 +41,7 @@ I am Harshad, an engineering student at MIT Academy of Engineering in Pune, grad
 
 ## Verification
 
-[![Flagship verification](https://github.com/Harshad-Gore/Harshad-Gore/actions/workflows/verify-flagships.yml/badge.svg)](https://github.com/Harshad-Gore/Harshad-Gore/actions/workflows/verify-flagships.yml)
+[![Flagship verification](https://github.com/Harshad-Gore/Harshad-Gore/actions/workflows/verify-flagships.yml/badge.svg?branch=main&event=push)](https://github.com/Harshad-Gore/Harshad-Gore/actions/workflows/verify-flagships.yml)
 
 The profile workflow checks out both repositories and independently builds the RAG backend and both frontends, while also enforcing ISL frontend lint and recognition tests. The case studies record the verified baseline and the remaining limitations.
 
